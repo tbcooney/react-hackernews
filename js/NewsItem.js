@@ -38,9 +38,7 @@ var NewsItem = React.createClass({
   getDomain: function() {
     if (this.props.item.url) {
       return url.parse(this.props.item.url).hostname;
-    } else {
-      return null;
-    }
+    } return null;
   },
 
   getRank: function() {
